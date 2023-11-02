@@ -41,7 +41,6 @@ $(document).ready(function () {
     }
 
     function handlePaginationInitial() {
-        debugger
         if (totalPages === 1 || totalPages < 1) {
             $('.pagination-cont').addClass('d-none');
         } else {
@@ -51,7 +50,6 @@ $(document).ready(function () {
     }
 
     function updateProductTiles() {
-        debugger
         $('.product-card').remove();
         makeApiRequest(currentPage);
         if (currentPage === 1) {
