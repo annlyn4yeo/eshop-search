@@ -326,4 +326,17 @@ button.pagination-btn {
   #product__grid .product-card {
     width: 100%;
   }
+
+  .pagination-cont {
+    width: 65%;
+  }
+
+  .suggestion-wrap {
+    margin-top: 1.5rem;
+  }
+
+  .suggestions-box {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
 }
